@@ -1,0 +1,1703 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ali/ontologies/2026/5/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ali/ontologies/2026/5/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/ali/ontologies/2026/5/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AbstractConcept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Army"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atabeg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Battle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caliphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CapitalCity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContemporaryPolity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CorrespondenceDiwan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeceasedPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diwan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dynasty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnemyState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fidai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinanceMinister"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinancialDiwan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FriendlyState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Governor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrandVizier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalBuilding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IsmailiyyaOrder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Madrasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilitaryCastle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilitaryCommander"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilitaryDiwan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilitaryStrategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinisterOfWar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeutralState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OntologyConstant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rebellion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Siege"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soldier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sultan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeOfGovernment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValidSuccessorChronology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vizier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#helpers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assassinated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assassinatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#communicatesStrategyTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#declaresWarTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#employsStrategy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#founded"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hadParticipant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFounded"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVizier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAtWarWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBasedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBirthplaceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCapitalOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeathplaceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocationOfEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMainBaseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVizierOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leads"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ledBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occurredIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#receivesOrderFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#receivesStrategyFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ruledBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rulesOver"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#succeeded"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tradesWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#trainedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#trainsMilitarily"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wasBornIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#battleResult"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#birthYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#conflictType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#constantValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#deathYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#govRank"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#legitimacy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mainUsage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#measurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#modusOperandi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numberOfChildren"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#politicalNature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#refersToAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reignStartYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#religion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#responsibility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#spouseName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valueTypeLabel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbuTahirArrani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlpArslan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BattleOfManzikert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ByzantineEmpire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Isfahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IsfahanObservatory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IsmailiyyaOrder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MalikShahI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MaxHumanLifespan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MaxSimultaneousGrandViziers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MaximumHumanHeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinFidaiAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NizamiyyaSchools"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeljukEmpire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeljukEraEnd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeljukEraStart"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#religionSect"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Amir"/>
+        <Class IRI="#HistoricalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Army"/>
+        <Class IRI="#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atabeg"/>
+        <Class IRI="#HistoricalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Battle"/>
+        <Class IRI="#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Battle"/>
+        <DataHasValue>
+            <DataProperty IRI="#conflictType"/>
+            <Literal>Field Combat</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Battle"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#conflictType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caliphate"/>
+        <Class IRI="#TypeOfGovernment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caliphate"/>
+        <DataHasValue>
+            <DataProperty IRI="#legitimacy"/>
+            <Literal>Islamic Religion</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caliphate"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#legitimacy"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CapitalCity"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CapitalCity"/>
+        <DataHasValue>
+            <DataProperty IRI="#mainUsage"/>
+            <Literal>Political-Administrative</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CapitalCity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#mainUsage"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorrespondenceDiwan"/>
+        <Class IRI="#Diwan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorrespondenceDiwan"/>
+        <DataHasValue>
+            <DataProperty IRI="#responsibility"/>
+            <Literal>Letters</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorrespondenceDiwan"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#responsibility"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeceasedPerson"/>
+        <Class IRI="#helpers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeceasedPerson"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#deathYear"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diwan"/>
+        <Class IRI="#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynasty"/>
+        <Class IRI="#TypeOfGovernment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empire"/>
+        <Class IRI="#TypeOfGovernment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnemyState"/>
+        <Class IRI="#PoliticalRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnemyState"/>
+        <DataHasValue>
+            <DataProperty IRI="#politicalNature"/>
+            <Literal>Hostile</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnemyState"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#politicalNature"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fidai"/>
+        <Class IRI="#HistoricalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fidai"/>
+        <DataHasValue>
+            <DataProperty IRI="#modusOperandi"/>
+            <Literal>Assassination and covert operations</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fidai"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#modusOperandi"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinanceMinister"/>
+        <Class IRI="#Vizier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinanceMinister"/>
+        <DataHasValue>
+            <DataProperty IRI="#responsibility"/>
+            <Literal>Economic</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinanceMinister"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#responsibility"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinancialDiwan"/>
+        <Class IRI="#Diwan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinancialDiwan"/>
+        <DataHasValue>
+            <DataProperty IRI="#responsibility"/>
+            <Literal>Taxes</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinancialDiwan"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#responsibility"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FriendlyState"/>
+        <Class IRI="#PoliticalRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FriendlyState"/>
+        <DataHasValue>
+            <DataProperty IRI="#politicalNature"/>
+            <Literal>Ally</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FriendlyState"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#politicalNature"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Governor"/>
+        <Class IRI="#HistoricalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandVizier"/>
+        <Class IRI="#Vizier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandVizier"/>
+        <DataHasValue>
+            <DataProperty IRI="#govRank"/>
+            <Literal>Second-Rank</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandVizier"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#govRank"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IsmailiyyaOrder"/>
+        <Class IRI="#TypeOfGovernment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Madrasa"/>
+        <Class IRI="#HistoricalBuilding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Madrasa"/>
+        <DataHasValue>
+            <DataProperty IRI="#mainUsage"/>
+            <Literal>Educational</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Madrasa"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#mainUsage"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitaryCastle"/>
+        <Class IRI="#HistoricalBuilding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitaryCastle"/>
+        <DataHasValue>
+            <DataProperty IRI="#mainUsage"/>
+            <Literal>Defensive</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitaryCastle"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#mainUsage"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitaryCommander"/>
+        <Class IRI="#HistoricalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitaryDiwan"/>
+        <Class IRI="#Diwan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitaryDiwan"/>
+        <DataHasValue>
+            <DataProperty IRI="#responsibility"/>
+            <Literal>Army Support</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitaryDiwan"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#responsibility"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitaryStrategy"/>
+        <Class IRI="#AbstractConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinisterOfWar"/>
+        <Class IRI="#Vizier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinisterOfWar"/>
+        <DataHasValue>
+            <DataProperty IRI="#responsibility"/>
+            <Literal>Military</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinisterOfWar"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#responsibility"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeutralState"/>
+        <Class IRI="#PoliticalRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeutralState"/>
+        <DataHasValue>
+            <DataProperty IRI="#politicalNature"/>
+            <Literal>Neutral</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeutralState"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#politicalNature"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalRelation"/>
+        <Class IRI="#ContemporaryPolity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Province"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rebellion"/>
+        <Class IRI="#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rebellion"/>
+        <DataHasValue>
+            <DataProperty IRI="#conflictType"/>
+            <Literal>Internal Revolt</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rebellion"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#conflictType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siege"/>
+        <Class IRI="#Battle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siege"/>
+        <DataHasValue>
+            <DataProperty IRI="#conflictType"/>
+            <Literal>Attrition</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siege"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#conflictType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soldier"/>
+        <Class IRI="#HistoricalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soldier"/>
+        <DataHasValue>
+            <DataProperty IRI="#modusOperandi"/>
+            <Literal>Open Combat</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soldier"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#modusOperandi"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sultan"/>
+        <Class IRI="#HistoricalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sultan"/>
+        <DataHasValue>
+            <DataProperty IRI="#govRank"/>
+            <Literal>First-Rank</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sultan"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#govRank"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypeOfGovernment"/>
+        <Class IRI="#ContemporaryPolity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValidSuccessorChronology"/>
+        <Class IRI="#helpers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vizier"/>
+        <Class IRI="#HistoricalPerson"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AbstractConcept"/>
+        <Class IRI="#ContemporaryPolity"/>
+        <Class IRI="#HistoricalBuilding"/>
+        <Class IRI="#HistoricalEvent"/>
+        <Class IRI="#HistoricalPerson"/>
+        <Class IRI="#Institution"/>
+        <Class IRI="#Location"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Amir"/>
+        <Class IRI="#Atabeg"/>
+        <Class IRI="#Fidai"/>
+        <Class IRI="#Governor"/>
+        <Class IRI="#MilitaryCommander"/>
+        <Class IRI="#Soldier"/>
+        <Class IRI="#Sultan"/>
+        <Class IRI="#Vizier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Army"/>
+        <Class IRI="#Diwan"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Battle"/>
+        <Class IRI="#Rebellion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Caliphate"/>
+        <Class IRI="#Dynasty"/>
+        <Class IRI="#Empire"/>
+        <Class IRI="#EnemyState"/>
+        <Class IRI="#FriendlyState"/>
+        <Class IRI="#IsmailiyyaOrder"/>
+        <Class IRI="#NeutralState"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#City"/>
+        <Class IRI="#Province"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CorrespondenceDiwan"/>
+        <Class IRI="#FinancialDiwan"/>
+        <Class IRI="#MilitaryDiwan"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FinanceMinister"/>
+        <Class IRI="#GrandVizier"/>
+        <Class IRI="#MinisterOfWar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Madrasa"/>
+        <Class IRI="#MilitaryCastle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PoliticalRelation"/>
+        <Class IRI="#TypeOfGovernment"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Fidai"/>
+        <NamedIndividual IRI="#AbuTahirArrani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HistoricalPerson"/>
+        <NamedIndividual IRI="#AbuTahirArrani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HistoricalPerson"/>
+        <NamedIndividual IRI="#AlpArslan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sultan"/>
+        <NamedIndividual IRI="#AlpArslan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Battle"/>
+        <NamedIndividual IRI="#BattleOfManzikert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empire"/>
+        <NamedIndividual IRI="#ByzantineEmpire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EnemyState"/>
+        <NamedIndividual IRI="#ByzantineEmpire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CapitalCity"/>
+        <NamedIndividual IRI="#Isfahan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HistoricalBuilding"/>
+        <NamedIndividual IRI="#IsfahanObservatory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HistoricalPerson"/>
+        <NamedIndividual IRI="#MalikShahI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sultan"/>
+        <NamedIndividual IRI="#MalikShahI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OntologyConstant"/>
+        <NamedIndividual IRI="#MaxHumanLifespan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OntologyConstant"/>
+        <NamedIndividual IRI="#MaxSimultaneousGrandViziers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OntologyConstant"/>
+        <NamedIndividual IRI="#MaximumHumanHeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OntologyConstant"/>
+        <NamedIndividual IRI="#MinFidaiAge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GrandVizier"/>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HistoricalPerson"/>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Madrasa"/>
+        <NamedIndividual IRI="#NizamiyyaSchools"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ContemporaryPolity"/>
+        <NamedIndividual IRI="#SeljukEmpire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empire"/>
+        <NamedIndividual IRI="#SeljukEmpire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OntologyConstant"/>
+        <NamedIndividual IRI="#SeljukEraEnd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OntologyConstant"/>
+        <NamedIndividual IRI="#SeljukEraStart"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assassinated"/>
+        <NamedIndividual IRI="#AbuTahirArrani"/>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCapitalOf"/>
+        <NamedIndividual IRI="#Isfahan"/>
+        <NamedIndividual IRI="#SeljukEmpire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#occurredIn"/>
+        <NamedIndividual IRI="#IsfahanObservatory"/>
+        <NamedIndividual IRI="#Isfahan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#founded"/>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+        <NamedIndividual IRI="#NizamiyyaSchools"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isVizierOf"/>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+        <NamedIndividual IRI="#MalikShahI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCapital"/>
+        <NamedIndividual IRI="#SeljukEmpire"/>
+        <NamedIndividual IRI="#Isfahan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAtWarWith"/>
+        <NamedIndividual IRI="#SeljukEmpire"/>
+        <NamedIndividual IRI="#ByzantineEmpire"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#religion"/>
+        <NamedIndividual IRI="#AbuTahirArrani"/>
+        <Literal>شیعه اسماعیلی</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#birthYear"/>
+        <NamedIndividual IRI="#AlpArslan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1029</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reignStartYear"/>
+        <NamedIndividual IRI="#AlpArslan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1063</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#AlpArslan"/>
+        <Literal>عضدالدوله</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#battleResult"/>
+        <NamedIndividual IRI="#BattleOfManzikert"/>
+        <Literal>پیروزی سلجوقیان</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#religion"/>
+        <NamedIndividual IRI="#ByzantineEmpire"/>
+        <Literal>مسیحیت ارتدوکس</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Isfahan"/>
+        <Literal>نصف جهان</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#constantValue"/>
+        <NamedIndividual IRI="#MaxHumanLifespan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#measurementUnit"/>
+        <NamedIndividual IRI="#MaxHumanLifespan"/>
+        <Literal>Year</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refersToAttribute"/>
+        <NamedIndividual IRI="#MaxHumanLifespan"/>
+        <Literal>Birth-Year / Death-Year</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valueTypeLabel"/>
+        <NamedIndividual IRI="#MaxHumanLifespan"/>
+        <Literal>Integer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refersToAttribute"/>
+        <NamedIndividual IRI="#MaxSimultaneousGrandViziers"/>
+        <Literal>constantValue 1
+valueTypeLabel &quot;Integer&quot;
+measurementUnit &quot;Person&quot;
+refersToAttribute &quot;Vizier-Of / GrandVizier&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#MaximumHumanHeight"/>
+        <Literal>constantValue 250
+valueTypeLabel &quot;Integer&quot;
+measurementUnit &quot;cm&quot;
+refersToAttribute &quot;Height&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refersToAttribute"/>
+        <NamedIndividual IRI="#MinFidaiAge"/>
+        <Literal>constantValue 15
+valueTypeLabel &quot;Integer&quot;
+measurementUnit &quot;Year&quot;
+refersToAttribute &quot;Birth-Year / Fidai&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#battleResult"/>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+        <Literal>پیروزی سلجوقیان</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deathYear"/>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1092</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#NizamAlMulk"/>
+        <Literal>قوام‌الدین</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refersToAttribute"/>
+        <NamedIndividual IRI="#SeljukEraEnd"/>
+        <Literal>constantValue 1037
+valueTypeLabel &quot;Integer&quot;
+measurementUnit &quot;AD Year&quot;
+refersToAttribute &quot;Reign-Start-Year / Events&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refersToAttribute"/>
+        <NamedIndividual IRI="#SeljukEraStart"/>
+        <Literal>constantValue 1037
+valueTypeLabel &quot;Integer&quot;
+measurementUnit &quot;AD Year&quot;
+refersToAttribute &quot;Reign-Start-Year / Events&quot;</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#occurredIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#participatedIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#assassinatedBy"/>
+        <ObjectProperty IRI="#assassinatedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#communicatesStrategyTo"/>
+        <ObjectProperty IRI="#receivesStrategyFrom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#declaresWarTo"/>
+        <ObjectProperty IRI="#receivesOrderFrom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#diedIn"/>
+        <ObjectProperty IRI="#isDeathplaceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#founded"/>
+        <ObjectProperty IRI="#hasFounded"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hadParticipant"/>
+        <ObjectProperty IRI="#participatedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCapital"/>
+        <ObjectProperty IRI="#isCapitalOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasVizier"/>
+        <ObjectProperty IRI="#isVizierOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isBasedIn"/>
+        <ObjectProperty IRI="#isMainBaseOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isBirthplaceOf"/>
+        <ObjectProperty IRI="#wasBornIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isLocationOfEvent"/>
+        <ObjectProperty IRI="#occurredIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#leads"/>
+        <ObjectProperty IRI="#ledBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ruledBy"/>
+        <ObjectProperty IRI="#rulesOver"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#trainedBy"/>
+        <ObjectProperty IRI="#trainsMilitarily"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#diedIn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isBirthplaceOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isCapitalOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isDeathplaceOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isMainBaseOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#succeeded"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isAtWarWith"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#tradesWith"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#assassinated"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#succeeded"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assassinated"/>
+        <Class IRI="#Fidai"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assassinatedBy"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#communicatesStrategyTo"/>
+        <Class IRI="#MinisterOfWar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#declaresWarTo"/>
+        <Class IRI="#Sultan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diedIn"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#employsStrategy"/>
+        <Class IRI="#Soldier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#founded"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hadParticipant"/>
+        <Class IRI="#HistoricalEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapital"/>
+        <Class IRI="#Empire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFounded"/>
+        <Class IRI="#HistoricalBuilding"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectUnionOf>
+            <Class IRI="#Army"/>
+            <Class IRI="#ContemporaryPolity"/>
+            <Class IRI="#Diwan"/>
+            <Class IRI="#IsmailiyyaOrder"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVizier"/>
+        <Class IRI="#Sultan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAtWarWith"/>
+        <Class IRI="#Empire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBasedIn"/>
+        <Class IRI="#IsmailiyyaOrder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBirthplaceOf"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCapitalOf"/>
+        <Class IRI="#CapitalCity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDeathplaceOf"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocationOfEvent"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMainBaseOf"/>
+        <Class IRI="#MilitaryCastle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVizierOf"/>
+        <Class IRI="#Vizier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leads"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ledBy"/>
+        <Class IRI="#ContemporaryPolity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#occurredIn"/>
+        <Class IRI="#HistoricalEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participatedIn"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receivesOrderFrom"/>
+        <Class IRI="#MinisterOfWar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receivesStrategyFrom"/>
+        <Class IRI="#MilitaryCommander"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ruledBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#ContemporaryPolity"/>
+            <Class IRI="#Location"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rulesOver"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#succeeded"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tradesWith"/>
+        <Class IRI="#Empire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#trainedBy"/>
+        <Class IRI="#Soldier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#trainsMilitarily"/>
+        <Class IRI="#MilitaryCommander"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wasBornIn"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assassinated"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assassinatedBy"/>
+        <Class IRI="#Fidai"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#communicatesStrategyTo"/>
+        <Class IRI="#MilitaryCommander"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#declaresWarTo"/>
+        <Class IRI="#MinisterOfWar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diedIn"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#employsStrategy"/>
+        <Class IRI="#MilitaryStrategy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#founded"/>
+        <Class IRI="#HistoricalBuilding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hadParticipant"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapital"/>
+        <Class IRI="#CapitalCity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFounded"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVizier"/>
+        <Class IRI="#Vizier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAtWarWith"/>
+        <Class IRI="#EnemyState"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBasedIn"/>
+        <Class IRI="#MilitaryCastle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBirthplaceOf"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCapitalOf"/>
+        <Class IRI="#Empire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDeathplaceOf"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocationOfEvent"/>
+        <Class IRI="#HistoricalEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMainBaseOf"/>
+        <Class IRI="#IsmailiyyaOrder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#Army"/>
+            <Class IRI="#ContemporaryPolity"/>
+            <Class IRI="#Diwan"/>
+            <Class IRI="#IsmailiyyaOrder"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isVizierOf"/>
+        <Class IRI="#Sultan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leads"/>
+        <Class IRI="#ContemporaryPolity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ledBy"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#occurredIn"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participatedIn"/>
+        <Class IRI="#HistoricalEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receivesOrderFrom"/>
+        <Class IRI="#Sultan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receivesStrategyFrom"/>
+        <Class IRI="#MinisterOfWar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ruledBy"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rulesOver"/>
+        <ObjectUnionOf>
+            <Class IRI="#ContemporaryPolity"/>
+            <Class IRI="#Location"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#succeeded"/>
+        <Class IRI="#HistoricalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tradesWith"/>
+        <Class IRI="#FriendlyState"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#trainedBy"/>
+        <Class IRI="#MilitaryCommander"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#trainsMilitarily"/>
+        <Class IRI="#Soldier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wasBornIn"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#battleResult"/>
+        <Class IRI="#Battle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#battleResult"/>
+        <Class IRI="#Rebellion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#birthYear"/>
+        <Class IRI="#HistoricalPerson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#deathYear"/>
+        <Class IRI="#HistoricalPerson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#height"/>
+        <Class IRI="#HistoricalPerson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numberOfChildren"/>
+        <Class IRI="#HistoricalPerson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reignStartYear"/>
+        <Class IRI="#Amir"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reignStartYear"/>
+        <Class IRI="#Atabeg"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reignStartYear"/>
+        <Class IRI="#Governor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reignStartYear"/>
+        <Class IRI="#Sultan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#religion"/>
+        <Class IRI="#Caliphate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#religion"/>
+        <Class IRI="#ContemporaryPolity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#religion"/>
+        <Class IRI="#Dynasty"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#religion"/>
+        <Class IRI="#Empire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#religion"/>
+        <Class IRI="#IsmailiyyaOrder"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#spouseName"/>
+        <Class IRI="#HistoricalPerson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#title"/>
+        <Class IRI="#HistoricalPerson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#HistoricalPerson"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#battleResult"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#birthYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#conflictType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#constantValue"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#deathYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#govRank"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#height"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#legitimacy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mainUsage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#measurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#modusOperandi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numberOfChildren"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#politicalNature"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#refersToAttribute"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reignStartYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#responsibility"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#spouseName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valueTypeLabel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weight"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Fidai"/>
+                <Variable IRI="/f"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#HistoricalPerson"/>
+                <Variable IRI="/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#assassinated"/>
+                <Variable IRI="/f"/>
+                <Variable IRI="/p"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#DeceasedPerson"/>
+                <Variable IRI="/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>s1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#HistoricalPerson"/>
+                <Variable IRI="/x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#HistoricalPerson"/>
+                <Variable IRI="/y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#succeeded"/>
+                <Variable IRI="/x"/>
+                <Variable IRI="/y"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#reignStartYear"/>
+                <Variable IRI="/x"/>
+                <Variable IRI="/year2"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#reignStartYear"/>
+                <Variable IRI="/y"/>
+                <Variable IRI="/year1"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="/year2"/>
+                <Variable IRI="/year1"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#ValidSuccessorChronology"/>
+                <Variable IRI="/x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
